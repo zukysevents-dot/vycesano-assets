@@ -12,7 +12,7 @@ font-family:'Segoe UI',Arial,sans-serif!important;
 overflow-x:hidden!important;
 }
 
-/* SCHOVAT SHOPTET */
+/* HIDE SHOPTET */
 
 .navigation-buttons,
 .top-navigation-bar,
@@ -26,7 +26,7 @@ overflow-x:hidden!important;
 display:none!important;
 }
 
-/* TOP INFO */
+/* TOP */
 
 .vz-top{
 background:linear-gradient(90deg,#1B4632,#2D684A);
@@ -69,11 +69,11 @@ padding:26px 42px 28px;
 box-shadow:0 20px 60px rgba(0,0,0,.12);
 }
 
-/* TOP */
+/* TOP ROW */
 
 .vz-header-top{
 display:grid;
-grid-template-columns:360px 1fr 90px;
+grid-template-columns:380px 1fr 110px;
 align-items:center;
 gap:32px;
 margin-bottom:22px;
@@ -89,8 +89,8 @@ text-decoration:none!important;
 }
 
 .vz-real-logo img{
-width:88px;
-height:88px;
+width:104px;
+height:104px;
 border-radius:24px;
 background:#fff;
 padding:10px;
@@ -98,7 +98,7 @@ box-shadow:0 10px 28px rgba(0,0,0,.12);
 }
 
 .vz-logo-text{
-font-size:58px;
+font-size:72px;
 font-weight:900;
 line-height:1;
 letter-spacing:-.05em;
@@ -118,14 +118,14 @@ width:100%;
 
 .vz-search input{
 width:100%;
-height:78px;
+height:92px;
 border:none;
 border-radius:999px;
-padding:0 190px 0 34px;
-font-size:24px;
-font-weight:600;
+padding:0 210px 0 36px;
+font-size:28px;
+font-weight:700;
 background:#fff;
-box-shadow:0 8px 30px rgba(0,0,0,.08);
+box-shadow:0 10px 34px rgba(0,0,0,.10);
 outline:none;
 }
 
@@ -133,13 +133,13 @@ outline:none;
 position:absolute;
 right:10px;
 top:10px;
-height:58px;
-padding:0 36px;
+height:70px;
+padding:0 40px;
 border:none;
 border-radius:999px;
 background:var(--vz-green);
 color:#fff;
-font-size:20px;
+font-size:24px;
 font-weight:900;
 cursor:pointer;
 transition:.2s;
@@ -158,14 +158,14 @@ align-items:center;
 }
 
 .vz-cart-link{
-width:68px;
-height:68px;
-border-radius:22px;
+width:74px;
+height:74px;
+border-radius:24px;
 background:rgba(255,255,255,.10);
 display:flex;
 align-items:center;
 justify-content:center;
-font-size:34px;
+font-size:38px;
 text-decoration:none!important;
 color:#fff!important;
 transition:.2s;
@@ -182,18 +182,18 @@ transform:translateY(-2px);
 display:flex;
 justify-content:center;
 align-items:center;
-gap:12px;
+gap:14px;
 flex-wrap:wrap;
-padding-top:18px;
+padding-top:20px;
 border-top:1px solid rgba(255,255,255,.08);
 }
 
 .vz-menu a{
 color:#fff;
 text-decoration:none!important;
-font-size:18px;
+font-size:19px;
 font-weight:900;
-padding:14px 22px;
+padding:15px 24px;
 border-radius:18px;
 transition:.2s;
 letter-spacing:.2px;
@@ -217,9 +217,9 @@ color:#F3C76A;
 .banners-row{
 max-width:1550px!important;
 margin:0 auto 32px!important;
-border-radius:36px!important;
+border-radius:42px!important;
 overflow:hidden!important;
-box-shadow:0 30px 80px rgba(0,0,0,.12)!important;
+box-shadow:0 40px 100px rgba(0,0,0,.12)!important;
 }
 
 .carousel-inner img,
@@ -227,47 +227,7 @@ box-shadow:0 30px 80px rgba(0,0,0,.12)!important;
 .slides img{
 width:100%!important;
 display:block!important;
-border-radius:36px!important;
-}
-
-/* PRODUKTY */
-
-.product,
-.product .p{
-background:#fff!important;
-border-radius:26px!important;
-overflow:hidden!important;
-box-shadow:0 10px 34px rgba(0,0,0,.05)!important;
-transition:.25s!important;
-}
-
-.product:hover,
-.product .p:hover{
-transform:translateY(-6px)!important;
-box-shadow:0 18px 50px rgba(0,0,0,.10)!important;
-}
-
-.product .name,
-.product .p-name{
-font-size:19px!important;
-font-weight:800!important;
-line-height:1.45!important;
-}
-
-.product .price,
-.product .p-final-price{
-font-size:30px!important;
-font-weight:900!important;
-color:#1C1C1C!important;
-}
-
-.btn,
-.btn-cart,
-.add-to-cart-button{
-background:var(--vz-green)!important;
-border-color:var(--vz-green)!important;
-border-radius:999px!important;
-font-weight:900!important;
+border-radius:42px!important;
 }
 
 /* MOBILE */
